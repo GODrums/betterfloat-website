@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "BetterFloat",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Enhance your website experience on the largest CS2 marketplaces with BetterFloat.",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/rumscsgo",
+    github: "https://github.com/GODrums/BetterFloat",
     docs: "https://ui.shadcn.com",
+    chrome: "https://chromewebstore.google.com/detail/betterfloat/bphfhlfhnohppnleaehnlfigkkccpglk",
+    firefox: "https://addons.mozilla.org/en-US/firefox/addon/betterfloat/",
   },
 }
