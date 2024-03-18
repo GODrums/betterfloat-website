@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export function CSFloatItem(props: CSFloatSettings) {
     return (
-        <div className="flex flex-col p-2 text-left bg-[#303030]">
+        <div className="p-2 bg-[#303030] h-fit">
             <div className="w-[280px] bg-[#424242] rounded-[4px]">
                 <div className="grid text-white" style={{ gridTemplateColumns: 'auto', gridTemplateRows: 'auto auto 1fr auto auto auto', gridTemplateAreas: `"header" "break" "image" "break2" "float" "footer"` }}>
                     <div className="min-h-[50px] pt-3 pb-0 px-3 min-w-0" style={{ gridArea: 'header' }}>

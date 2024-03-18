@@ -10,9 +10,10 @@ import BetterFloatLogo from "@/lib/assets/icon.png"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
-  const items = siteConfig.mainNav as NavItem[]
+  // const items = siteConfig.mainNav as NavItem[]
+  const items = [] as NavItem[]
   return (
-    <header className="bg-background sticky top-0 z-40 w-full border-b">
+    <header className="backdrop-blur-sm sticky top-0 z-40 w-full">
       <div className="container h-16 flex items-center justify-between space-x-4 sm:space-x-0">
         {/* <MainNav items={siteConfig.mainNav} /> */}
         <Link href="/" className="flex items-center space-x-2">

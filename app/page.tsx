@@ -58,8 +58,26 @@ export default function IndexPage() {
       </div>
       <div className="flex flex-col items-center gap-2 mt-32">
         <h1 className="text-3xl text-stone-300 font-extrabold leading-tight tracking-tighter md:text-4xl">
-          <span className="text-blue-600">Personalize</span> it just the way you like it.
+          Open-source & <span className="text-blue-600">community</span>-driven
         </h1>
+        <div className="flex justify-center items-center gap-4 mt-4">
+          <a href="https://github.com/godrums/BetterFloat">
+            <img src="https://gh-card.dev/repos/godrums/BetterFloat.svg" style={{ filter: 'invert(0.9)' }} />
+          </a>
+          <a href="https://discord.gg/VQWXp33nSW">
+            <img src="https://i.postimg.cc/Fzj7T05w/discord.png" alt="Discord" className="h-16" />
+          </a>
+        </div>
+        <div className="flex flex-col items-center gap-2 mt-32">
+          <h1 className="text-3xl text-stone-300 font-extrabold leading-tight tracking-tighter md:text-4xl">
+            Support for all your favorite <span className="text-blue-600">markets</span>
+          </h1>
+        </div>
+        <div className="flex flex-col items-center gap-2 mt-32">
+          <h1 className="text-3xl text-stone-300 font-extrabold leading-tight tracking-tighter md:text-4xl">
+            <span className="text-blue-600">Personalize</span> it just the way you like it
+          </h1>
+        </div>
       </div>
     </section>
   )
