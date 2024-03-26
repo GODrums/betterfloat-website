@@ -80,7 +80,7 @@ export function ItemSettings(props: ItemSettingsProps) {
                     </Button>
                     <SettingsCard className="w-full">
                         <SettingsCheckbox
-                            id="csf-topbutton" text="Show 'Back to Top'-Button" icon={<MdiChevronUp className="h-6 w-6 bg-neutral-800 rounded-full" />} />
+                            id="csf-topbutton" text="Show 'Back to Top'-Button" icon={<MdiChevronUp className="size-6 bg-neutral-800 rounded-full" />} />
                         <p className="text-muted-foreground text-sm">Adds a small button to the bottom right of the page, which instantly transports you back to the top of the page. Useful when scrolling through listings a lot.</p>
                     </SettingsCard>
                 </div>
