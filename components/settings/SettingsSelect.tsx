@@ -2,6 +2,8 @@ import { Label } from "@radix-ui/react-label";
 import { IconProps } from "@tabler/icons-react";
 import { type ReactElement, useState } from "react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+import { useSetRecoilState } from "recoil";
+import { settingState } from "@/app/recoilContextProvider";
 
 type SelectProps = {
     id: string;
@@ -19,10 +21,13 @@ export const SettingsSelect = ({
     const [value, setValue] = useState<any>("0");
     // the radix-ui select component is bugged and needs manual open/close handling
     const [open, setOpen] = useState(false);
+    const setSettings = useSetRecoilState(settingState);
 
     const onValueChange = (value: string) => {
+        console.log(value);
         setValue(value);
         setOpen(false);
+        setSettings((prev) => ({ ...prev, [id]: value }));
     }
 
     return (
