@@ -1,13 +1,10 @@
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
 import Image from "next/image"
 import BFWindow from "@/lib/assets/betterfloat_window.png"
 import GetChrome from "@/lib/assets/get-chrome.png"
 import GetFirefox from "@/lib/assets/get-firefox.png"
-import { cn } from "@/lib/utils"
-import { FeatureGrid } from "@/components/FeatureGrid"
 
 export default function IndexPage() {
   return (
